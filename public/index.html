@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="logo">
+                  <i class="fab fa-facebook-messenger" style="color: white;"></i>
+                  <h3 style="color: white;">Messenger</h3>
+            </div>
+            <p id="your-name">Your name</p>
+        </div>
+
+        <div class="chat-section">
+            <div class="main-wrapper">
+                <div class="chat-content">
+                    
+                    <div class="message">
+                        <div class="messgae-row other-message">
+                             
+                        </div>
+                        <div class="messgae-row you-message">
+                           
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <form class="msg-text">
+                  <input type="text" name="msg" id="msg" placeholder="Type Message here....." autocomplete="off">
+                  <button id="btn">
+                      <i class="fas fa-paper-plane">Send</i>
+                  </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+       <script src="app.js"></script>
+</body>
+</html>

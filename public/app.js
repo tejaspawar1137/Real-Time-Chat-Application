@@ -57,11 +57,5 @@
            `;
            msgDiv.innerHTML = innerText;
            displayMsg.appendChild(msgDiv)
-        //    const name = "node js";
-        //    const name = "express js";
-        //    const name  = "mongoDB";
-        //    const name = "python";
-        //    const lastname = "tejas pawar all"
-        //    const div = node js
-        //    const .charAt(11.3)
+        
        } 
